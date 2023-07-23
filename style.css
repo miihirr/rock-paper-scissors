@@ -1,0 +1,35 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scores{
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    font-size: 30px;
+}
+h2{
+    margin: 22px;
+    font-family: Copperplate;
+}
+img{
+    max-height: 300px;
+}
+p{
+    text-align: center;
+    font-size: 61px;
+    font-family: Bradley Hand;
+}
+h3{
+    text-align: center;
+    font-size: 22px;
+}
+.select{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    font-family: Copperplate;
+    font-size: 47px;
+}

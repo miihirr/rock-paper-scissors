@@ -8,23 +8,28 @@
     align-self: stretch;
     justify-content: space-between;
     font-size: 30px;
+    padding-bottom: 30px;
 }
 h2{
-    margin: 22px;
     font-family: Copperplate;
+    margin: 0px 22px;
+}
+.compChoice{
+    margin-top: 45px;
+    font-size: 52px;
+    font-family: Marker Felt;
+    text-align: center;
 }
 img{
     max-height: 300px;
+    padding: 25px;
 }
 p{
     text-align: center;
     font-size: 61px;
     font-family: Bradley Hand;
 }
-h3{
-    text-align: center;
-    font-size: 22px;
-}
+
 .select{
     display: flex;
     justify-content: space-around;
@@ -32,4 +37,49 @@ h3{
 h1{
     font-family: Copperplate;
     font-size: 47px;
+}
+.reset{
+    display: none;
+ 
+    font-size: 37px;
+    font-family: cursive;
+    border-radius: 33px;
+    padding: 1px 40px;
+    text-align: center;
+    margin:auto;
+    border: none;
+    background-color: black;
+    color: white;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.main{
+    padding: 25px;
+    
+    color: black;
+    background-color: white;
+    height: 600px;
+}
+img:hover{
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 22px;
+}
+.reset:hover{
+    cursor: pointer;
+    color:yellow;
+    box-shadow:5px 5px yellow;
+}
+.active{
+    max-height: 320px;
+}
+.made{
+    text-align: center;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

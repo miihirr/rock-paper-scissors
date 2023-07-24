@@ -75,6 +75,9 @@ img:hover{
 .active{
     max-height: 320px;
 }
+.action{
+    font-size: 60px;
+}
 .made{
     text-align: center;
     color: black;

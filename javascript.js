@@ -103,7 +103,11 @@ function game() {
             setTimeout(()=>{
                 document.querySelector(`#${img.id}`).classList.remove('active');
             },200);
-   
+            document.querySelector('.compChoice').classList.add('action');
+            setTimeout(()=>{
+                document.querySelector(`.compChoice`).classList.remove('action');
+                document.querySelector('.compChoice').textContent=`Computer Choice : not selected`;
+            },700);
             document.querySelector('.playerScore').textContent = `Your Score : ${playerScore}`;
             document.querySelector('.compScore').textContent = `Computer Score : ${computerScore}`;
             document.querySelector('.tie').textContent = `Ties : ${ties}`;

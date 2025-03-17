@@ -27,10 +27,4 @@ A classic Rock Paper Scissors game implemented in JavaScript with a clean user i
 ```bash
   git clone git@github.com:miihirr/rock-paper-scissors.git
 
-2. open the directory in VS code:
-
-4. GO LIVE
-
-
-
 

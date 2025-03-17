@@ -5,8 +5,7 @@ A classic Rock Paper Scissors game implemented in JavaScript with a clean user i
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-![Game Screenshot](screenshot.png) <!-- Add your screenshot here -->
-
+![Game Screenshot](screenshot.png) 
 ## Features
 
 - 🕹️ Interactive game interface with clickable choices
@@ -29,4 +28,18 @@ A classic Rock Paper Scissors game implemented in JavaScript with a clean user i
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/miihirr/rock-paper-scissors.git
+git clone git@github.com:miihirr/rock-paper-scissors.git
+
+2. open the directory:
+```bash
+cd rock-paper-scissors
+
+3. open in VS code:
+```bash
+code .
+
+4. GO LIVE
+
+
+
+
